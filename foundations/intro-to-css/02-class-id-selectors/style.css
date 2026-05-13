@@ -1,1 +1,18 @@
 /* Add CSS Styling */
+.meow {
+    background-color: pink;
+    font-family: "Verdana", "DejaVu Sans", serif;
+}
+#mrrp{
+    color: blue;
+    font-size: 36px;
+}
+.meow2{
+    font-size: 24px;
+}
+
+#purr {
+    background-color: lightgreen;
+    font-size: 24px;
+    font-weight: bold;
+}
