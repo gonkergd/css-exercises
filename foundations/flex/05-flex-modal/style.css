@@ -15,11 +15,20 @@ body {
   justify-content: center;
 }
 
+.top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 .modal {
   background: white;
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
 }
 
 .icon {
@@ -33,7 +42,19 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  align-self: flex-start;
 }
+
+.header {
+  align-self: center;
+  margin-right: auto;
+  margin-left: 12px;
+  margin-bottom: 12px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+
 
 .close-button {
   background: #eee;
@@ -50,20 +71,31 @@ body {
   padding: 0;
 }
 
+.text {
+  margin-left: 54px;
+  margin-bottom: 12px;
+}
 button {
   cursor: pointer;
   padding: 8px 16px;
   border-radius: 8px;
 }
 
+.buttons {
+  display: flex;
+  flex-direction: row;
+}
+
 button.continue {
   background: royalblue;
   border: 1px solid royalblue;
   color: white;
+  margin-left: 54px;
 }
 
 button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+  margin-left: 4px;
 }
